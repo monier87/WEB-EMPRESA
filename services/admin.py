@@ -5,6 +5,7 @@ from .models import Service
 
 class ServiceAdmin(admin.ModelAdmin):
     readonly_fields= ('created', 'update')
+    list_display=('title','created', 'update')
     
 admin.site.register(Service, ServiceAdmin)
     

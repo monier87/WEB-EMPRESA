@@ -18,8 +18,6 @@ def contact(request):
 def sample(request):
     return render(request, 'core/sample.html')
 
-def servicios(request):
-    return render(request, 'core/servicios.html')
 
 def store(request):
     return render(request, 'core/store.html')   
