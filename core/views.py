@@ -14,8 +14,6 @@ def about(request):
 def contact(request):
     return render(request, 'core/contact.html')
 
-def sample(request):
-    return render(request, 'core/sample.html')
 
 
 def store(request):
